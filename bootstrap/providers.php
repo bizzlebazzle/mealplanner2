@@ -2,6 +2,7 @@
 
 return [
     App\Providers\AppServiceProvider::class,
-    MongoDB\Laravel\MongoDBServiceProvider::class,
     App\Providers\SessionServiceProvider::class,
+    App\Providers\VoltServiceProvider::class,
+    MongoDB\Laravel\MongoDBServiceProvider::class,
 ];
